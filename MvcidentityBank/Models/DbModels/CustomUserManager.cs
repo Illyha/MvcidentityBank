@@ -10,6 +10,7 @@ namespace MvcidentityBank
     {
         public CustomUserManager(IUserStore<CustomUser> store) : base(store)
         {
+
         }
 
         public static CustomUserManager Create(IdentityFactoryOptions<CustomUserManager> ops, IOwinContext ctx)
